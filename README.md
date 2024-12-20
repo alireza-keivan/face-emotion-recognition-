@@ -1,4 +1,4 @@
-![download](https://github.com/user-attachments/assets/725fa927-933f-4223-a48b-5b490d52fc40)# Facial Expression Recognition with FER2013 Dataset
+Facial Expression Recognition with FER2013 Dataset
 
 ## Overview
 
