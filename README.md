@@ -1,4 +1,4 @@
-# Facial Expression Recognition with FER2013 Dataset
+![download](https://github.com/user-attachments/assets/725fa927-933f-4223-a48b-5b490d52fc40)# Facial Expression Recognition with FER2013 Dataset
 
 ## Overview
 
@@ -142,9 +142,10 @@ def plot_all_emotions():
         axs[i].set_xticks([])
         axs[i].set_yticks([])
 ```
-
+![image](https://github.com/alireza-keivan/face-emotion-recognition-/blob/main/src/plot%20all%20emotions.png)
 ### Comparing Emotion Distributions
-
+![image](https://github.com/alireza-keivan/face-emotion-recognition-/blob/main/src/plot%202.png)
+![image](https://github.com/alireza-keivan/face-emotion-recognition-/blob/main/src/plot%203.png)
 The following function compares the emotion distributions between two datasets:
 ```python
 def plot_compare_distributions(array1, array2, title1='', title2=''):
@@ -162,7 +163,8 @@ def plot_compare_distributions(array1, array2, title1='', title2=''):
     
     plt.show()
 ```
-
+![image](https://github.com/alireza-keivan/face-emotion-recognition-/blob/main/src/train%20test.png)
+![image](https://github.com/alireza-keivan/face-emotion-recognition-/blob/main/src/test%20predict.png)
 ---
 
 ## Model Architecture
@@ -263,7 +265,8 @@ def plot_image_and_emotion(test_image_array, test_image_label, pred_test_labels,
     axs[1].bar(emotions.values(), pred_test_labels[image_number], color='orange', alpha=0.7)
     plt.show()
 ```
-
+![image](https://github.com/alireza-keivan/face-emotion-recognition-/blob/main/src/first%20surprise.png)
+![image](https://github.com/alireza-keivan/face-emotion-recognition-/blob/main/src/bored.png)
 ---
 
 ## Confusion Matrix
@@ -278,7 +281,7 @@ fig, ax = plot_confusion_matrix(
     figsize=(8, 8)
 )
 ```
-
+![image](https://github.com/alireza-keivan/face-emotion-recognition-/blob/main/src/conf.png)
 ---
 
 ## Saving and Loading the Model
