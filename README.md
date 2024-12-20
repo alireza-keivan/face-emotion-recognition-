@@ -1,5 +1,16 @@
-```markdown
 # Facial Expression Recognition with FER2013 Dataset
+
+## Overview
+
+This project implements a **Facial Expression Recognition** system using the FER2013 dataset. The goal is to classify grayscale images of faces into seven distinct emotion categories: 
+- `Angry`
+- `Disgust`
+- `Fear`
+- `Happy`
+- `Sad`
+- `Surprise`
+- `Neutral`
+---
 
 ## Table of Contents
 - [Overview](#overview)
@@ -18,16 +29,6 @@
 
 ---
 
-## Overview
-
-This project implements a **Facial Expression Recognition** system using the FER2013 dataset. The goal is to classify grayscale images of faces into seven distinct emotion categories: 
-- `Angry`
-- `Disgust`
-- `Fear`
-- `Happy`
-- `Sad`
-- `Surprise`
-- `Neutral`
 
 It uses a **Convolutional Neural Network (CNN)** built with TensorFlow and Keras for classification. The project includes:
 - Data preprocessing.
